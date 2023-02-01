@@ -1,0 +1,583 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1649194247656240, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649194247657293, "dur": 52930, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649194247710356, "dur": 199901, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649194247910272, "dur": 9793, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649194259775369, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649194259775594, "dur": 5887, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649194259781484, "dur": 47362, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649194259828926, "dur": 268306, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649194260097233, "dur": 337152, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649194260434387, "dur": 14083, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649194260449288, "dur": 28, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1649194259969792, "dur": 120197, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649194259970651, "dur": 50779, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649194260075077, "dur": 4197, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649194260079277, "dur": 10704, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649194260079836, "dur": 9139, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649194260094195, "dur": 1222, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649194260093229, "dur": 2216, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649194260449425, "dur": 239, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1649194260156831, "dur":1608, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260158445, "dur":59, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1649194260158514, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1649194260158534, "dur":759, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1649194260159327, "dur":601, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260159929, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415394, "dur":491, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415885, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415902, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415905, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415911, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415913, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415918, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415920, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415925, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415927, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415932, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415933, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415939, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415940, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415946, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415947, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415953, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415954, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415960, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415961, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415966, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415967, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415973, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415974, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415979, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415980, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415986, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415987, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415993, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415994, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260415999, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260416001, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260416009, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260416021, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260416024, "dur":2281, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1649194260159627, "dur":307, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649194260159936, "dur":4841, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649194260164787, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1649194260164788, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649194260164939, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1649194260164944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649194260166217, "dur":4153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1649194260170374, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1649194260170606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649194260170959, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1649194260172474, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1649194260172608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649194260172613, "dur":78688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1649194260251357, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260251421, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649194260251485, "dur":52833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260304386, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260304460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649194260304469, "dur":31069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260335586, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260335642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649194260335649, "dur":24233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260359929, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260360073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649194260360080, "dur":4081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260364223, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260364281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649194260364289, "dur":3657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260368003, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260368108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649194260368118, "dur":3302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260371477, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260371526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649194260371531, "dur":5047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260376648, "dur":13218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260389871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649194260391609, "dur":2426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649194260394202, "dur":21177, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649194260159667, "dur":273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649194260159940, "dur":4845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649194260164787, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1649194260165203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649194260249275, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1649194260252838, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649194260252906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649194260252913, "dur":44981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649194260297944, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649194260298005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649194260298040, "dur":24558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649194260322684, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649194260322741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649194260322749, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649194260326218, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649194260326379, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649194260326385, "dur":23780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649194260350216, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649194260350270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649194260350277, "dur":35158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649194260385491, "dur":1307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1649194260386802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649194260386812, "dur":6140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1649194260393011, "dur":22376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649194260159695, "dur":250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649194260159945, "dur":4856, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649194260164802, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1649194260165123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649194260167364, "dur":3479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1649194260170897, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649194260171014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649194260171359, "dur":80353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649194260251784, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649194260251859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649194260251865, "dur":54668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649194260306815, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649194260306896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649194260306932, "dur":8149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649194260315149, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649194260315211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649194260315222, "dur":7872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649194260323139, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649194260323190, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649194260323196, "dur":26232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649194260349478, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649194260349529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649194260349539, "dur":40799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649194260390421, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1649194260390531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649194260390538, "dur":4666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1649194260395258, "dur":20116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649194260159719, "dur":231, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649194260159950, "dur":4847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649194260164798, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1649194260165213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649194260183989, "dur":66648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1649194260250728, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649194260250807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649194260251312, "dur":58864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649194260310222, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649194260310280, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649194260310285, "dur":27782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649194260338117, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649194260338168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649194260338176, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649194260339633, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649194260339680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649194260339686, "dur":37460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649194260377205, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649194260377267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649194260377273, "dur":3907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649194260381331, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1649194260381411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649194260381418, "dur":7396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1649194260388874, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649194260388931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649194260388941, "dur":5315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649194260394310, "dur":21073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649194260159740, "dur":215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649194260159955, "dur":4844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649194260164800, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1649194260165137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649194260167301, "dur":3426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1649194260170772, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1649194260170893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649194260170899, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1649194260172340, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649194260172455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649194260172460, "dur":79729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649194260252246, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649194260252315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649194260252321, "dur":75849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649194260328231, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649194260328284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649194260328292, "dur":3535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649194260331873, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649194260331929, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649194260331935, "dur":25311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649194260357324, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649194260357404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649194260357410, "dur":55522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649194260412969, "dur":2416, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260159765, "dur":195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260159960, "dur":4836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260164799, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1649194260165188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260173912, "dur":76721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1649194260250707, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260250776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260251046, "dur":33315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260284418, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260284465, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260284473, "dur":25350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260309870, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260309920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260309927, "dur":24058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260334152, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260334211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260334251, "dur":26763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260361065, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260361243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260361249, "dur":5391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260366694, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260366752, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260366759, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260370414, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260370466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260370472, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260373182, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260373243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260373264, "dur":3908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649194260377223, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":6, "ts":1649194260377273, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260377279, "dur":7190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":6, "ts":1649194260384572, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1649194260384641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260384647, "dur":5459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1649194260390185, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1649194260390241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649194260390247, "dur":5209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1649194260395504, "dur":19887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649194260159789, "dur":176, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649194260159965, "dur":4828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649194260164794, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1649194260165112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649194260167598, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1649194260170952, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649194260171098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649194260171255, "dur":80282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649194260251621, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649194260251724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649194260251731, "dur":30017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649194260281799, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649194260281856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649194260281861, "dur":47581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649194260329493, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649194260329572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649194260329578, "dur":27539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649194260357173, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649194260357297, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649194260357306, "dur":50054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649194260407410, "dur":7967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649194260159816, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649194260159970, "dur":4841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649194260164811, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1649194260165190, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649194260178804, "dur":71638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1649194260250497, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649194260250553, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649194260250901, "dur":58298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649194260309267, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649194260309334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649194260309341, "dur":10139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649194260319543, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649194260319606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649194260319615, "dur":24200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649194260343863, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649194260343915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649194260343925, "dur":24238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649194260368222, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649194260368281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649194260368288, "dur":3371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649194260371718, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649194260371793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649194260371800, "dur":3573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649194260375465, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649194260375614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649194260375628, "dur":9128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649194260384812, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1649194260385097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649194260385102, "dur":5943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1649194260391118, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1649194260391423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649194260391428, "dur":4099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1649194260395574, "dur":19802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260159841, "dur":134, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260159975, "dur":4829, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260164806, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1649194260165171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260172915, "dur":76991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1649194260249990, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1649194260250141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260250715, "dur":7831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1649194260258610, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260258704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260258717, "dur":31692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260290462, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260290876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260290886, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260292361, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260292403, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260292408, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260293407, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260293443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260293447, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260294670, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260294714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260294721, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260296249, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260296297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260296305, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260298558, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260298597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260298602, "dur":32632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260331281, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260331328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260331335, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260333556, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260333610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260333616, "dur":3310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260336972, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260337017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260337023, "dur":24124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260361197, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260361247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260361252, "dur":4595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260365988, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260366073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260366080, "dur":5072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260371203, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260371254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260371260, "dur":5865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1649194260377185, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1649194260377245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260377324, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1649194260380575, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1649194260380655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260380665, "dur":3669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1649194260384397, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1649194260384464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260384472, "dur":4593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1649194260389117, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1649194260389199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1649194260389206, "dur":2859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1649194260392138, "dur":23230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649194260159864, "dur":116, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649194260159980, "dur":4828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649194260164809, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1649194260165223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649194260184621, "dur":67827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1649194260252501, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649194260252591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649194260252598, "dur":68769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649194260321422, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649194260321470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649194260321476, "dur":28784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649194260350330, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649194260350636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649194260350880, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649194260353153, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649194260353509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649194260353590, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649194260355685, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649194260355782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1649194260355789, "dur":40216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":10, "ts":1649194260396056, "dur":19342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260159894, "dur":90, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260159984, "dur":4816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260164803, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1649194260165265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260185683, "dur":66190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1649194260251953, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260252020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260252026, "dur":55774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260307859, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260307916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260307925, "dur":9910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260317889, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260317944, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260317956, "dur":3200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260321204, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260321260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260321268, "dur":36438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260357757, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260357973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260357978, "dur":5497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260363542, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260363596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260363605, "dur":6243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260369896, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260369947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260369955, "dur":2430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260372438, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260372485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260372491, "dur":5427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1649194260377979, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1649194260378487, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260378498, "dur":5583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1649194260384135, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1649194260384195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260384204, "dur":6017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1649194260390294, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1649194260390357, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1649194260390363, "dur":4652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1649194260395061, "dur":20309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260159916, "dur":72, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260159988, "dur":4814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260164804, "dur":445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1649194260165251, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260249373, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1649194260252455, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260252513, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260252520, "dur":33272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260285839, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260285885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260285894, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260287048, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260287098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260287104, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260288624, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260288676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260288684, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260291239, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260291324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260291330, "dur":29370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260320750, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260320805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260320813, "dur":4952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260325830, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260325982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260325993, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260329055, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260329104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260329111, "dur":21627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260350782, "dur":601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260351386, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260351391, "dur":2629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260354088, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260354144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260354151, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260356331, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260356391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260356400, "dur":32610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1649194260389089, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1649194260389164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1649194260389173, "dur":4607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1649194260393838, "dur":21528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649194260159938, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649194260159939, "dur":4844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649194260164787, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":13, "ts":1649194260165202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649194260249307, "dur":3228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":13, "ts":1649194260252580, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649194260252632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649194260252638, "dur":45837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649194260298525, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649194260298576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649194260298586, "dur":45759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649194260344402, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649194260344456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649194260344462, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649194260346051, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649194260346099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1649194260346106, "dur":69189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1649194260415333, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":13, "ts":1649194260415335, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260159975, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260159976, "dur":4815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260164794, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1649194260165273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260186126, "dur":64524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1649194260250722, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260250788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260250904, "dur":30707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260281664, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260281725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260281736, "dur":44283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260326142, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260326195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260326303, "dur":3831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260330184, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260330259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260330264, "dur":30570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260360888, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260361048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260361054, "dur":4204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260365305, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260365443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260365451, "dur":2867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260368374, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260368426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260368432, "dur":3306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260371794, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260371854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260371860, "dur":4652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260376572, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260376917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260376923, "dur":5834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1649194260382817, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":14, "ts":1649194260382883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260382889, "dur":6849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":14, "ts":1649194260389810, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/level1" }}
+,{ "pid":12345, "tid":14, "ts":1649194260389873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1649194260389879, "dur":4704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/level1" }}
+,{ "pid":12345, "tid":14, "ts":1649194260394631, "dur":20740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649194260160001, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649194260160001, "dur":4792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649194260164796, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1649194260165168, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649194260167723, "dur":3062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1649194260170834, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1649194260170957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649194260170964, "dur":78245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1649194260249310, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez.exe" }}
+,{ "pid":12345, "tid":15, "ts":1649194260249437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649194260249449, "dur":58216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez.exe" }}
+,{ "pid":12345, "tid":15, "ts":1649194260307715, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649194260307775, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649194260307782, "dur":21494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649194260329334, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649194260329426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649194260329435, "dur":56846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1649194260386343, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1649194260386409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1649194260386416, "dur":8688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1649194260395154, "dur":20240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260160034, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260160034, "dur":4755, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260164792, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1649194260165274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260186675, "dur":64192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1649194260250944, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260251027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260251158, "dur":54990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260306209, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260306266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260306275, "dur":20096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260326612, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260326695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260326706, "dur":23722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260350485, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260350862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260350868, "dur":3346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260354264, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260354605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260354611, "dur":3745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260358402, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260358546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260358581, "dur":5965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260364609, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260364667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260364674, "dur":5524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260370257, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260370312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260370323, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260372674, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260372812, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260372819, "dur":3545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260376431, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260376492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260376498, "dur":5949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1649194260382512, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1649194260382567, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1649194260382573, "dur":11555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/EQUIPO/Desktop/Universidad/HeroFromThePastV1.0/HeroFromThePastThomasSanchez_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1649194260394180, "dur":21183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649194260420252, "dur":1914, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1649194260449756, "dur": 851, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649194260449272, "dur": 1369, "ph": "X", "name": "Write chrome-trace events", "args": {} },
